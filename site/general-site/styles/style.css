@@ -1,5 +1,37 @@
-p {
-  color: red;
-  width: 500px;
-  border: 1px solid black;
+html {
+  font-size: 12px; /* px значит 'пиксели': базовый шрифт будет 12 пикселей в высоту  */
+  font-family: "Jura", sans-serif;
+  background-color: #9e9e9ee0;
 }
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #FFCC14;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #9e9e9ee0;
+  text-shadow: 3px 3px 4px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+p,
+h3,
+a,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
